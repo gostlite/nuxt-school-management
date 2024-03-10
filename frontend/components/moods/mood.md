@@ -1,0 +1,1 @@
+all components in this directory can be used individual and contains a function to change the colors when clicked on

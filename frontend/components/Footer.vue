@@ -1,0 +1,141 @@
+<!-- FOOTER COMPONENT -->
+<template>
+  <footer class="py-4 relative">
+
+    <!-- <button
+      class="absolute top-1 right-5 translate-y-1/3 bg-white rounded-full w-10 h-10 shadow-md"
+    >
+      
+    </button> -->
+    <div class="container mx-auto px-6 md:px-0">
+      <!-- First row -->
+      <div class="flex flex-wrap justify-between mt-5 pt-3">
+        <div class="w-full md:w-2/5 py-4">
+          <h3
+            class="text-white text-5xl md:text-6xl font-normal leading-7 mb-10 tiflicare"
+          >
+            TifliCare
+          </h3>
+          <p class="text-white footer-typo">
+            8502 Preston Rd. Inglewood, Lagos Nigeria.
+          </p>
+          <p class="text-white">+234 7035677890</p>
+        </div>
+        <div class="w-full md:w-1/5 py-4">
+          <h3 class="text-white font-semibold mb-10 footer-typo">SOLUTIONS</h3>
+          <p class="text-white footer-content">Childcare Management System</p>
+          <p class="text-white footer-content">Business Operations</p>
+          <p class="text-white footer-content">Classroom Management</p>
+          <p class="text-white footer-content">Staff Management</p>
+          <p class="text-white footer-content">Parent Communication</p>
+        </div>
+        <div class="w-full md:w-1/5 py-4">
+          <h3 class="text-white font-semibold mb-10 footer-typo">
+            WHO USES TIFLICARE
+          </h3>
+          <p class="text-white footer-content">Directors</p>
+          <p class="text-white footer-content">Teachers</p>
+          <p class="text-white footer-content">Parents</p>
+        </div>
+        <div class="w-full md:w-1/5 py-4">
+          <h3 class="text-white font-semibold mb-10 footer-typo">ABOUT</h3>
+          <p class="text-white footer-content">About</p>
+          <p class="text-white footer-content">Careers</p>
+          <p class="text-white footer-content">Press</p>
+          <p class="text-white footer-content">Security & Safety</p>
+          <p class="text-white footer-content">Terms of Service</p>
+          <p class="text-white footer-content">Privacy Policy</p>
+        </div>
+      </div>
+
+      <!-- Second row -->
+      <div class="flex flex-wrap justify-between">
+        <div class="w-full md:w-3/4 py-4">
+          <p class="text-white">
+            COPYRIGHT 2023 TIFLICARE ALL RIGHTS RESERVED.
+          </p>
+        </div>
+        <!-- ADING THE SOCIAL COMPONENT  -->
+        <Socials />
+      </div>
+    </div>
+
+    <!-- Adjust the negative margin as needed -->
+
+    <!-- ... (your SVG code here) ... -->
+    <NuxtLink to="feedback">
+      <svg
+        class="absolute top-1 right-10 transform -translate-y-1/2 w-20 h-20 md:w-40 md:h-40 md:mr-11 mr-5"
+        viewBox="0 0 156 156"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g filter="url(#filter0_d_858_1466)">
+          <circle cx="78" cy="74" r="74" fill="#03E987" />
+        </g>
+        <path
+          d="M89.9444 39.9634C88.4677 39.9634 87.0514 40.55 86.0072 41.5942C84.963 42.6384 84.3764 44.0546 84.3764 45.5313V56.6673C84.3764 58.144 84.963 59.5602 86.0072 60.6044C87.0514 61.6486 88.4677 62.2352 89.9444 62.2352V70.5872L99.9667 62.2352H112.216C113.693 62.2352 115.109 61.6486 116.153 60.6044C117.198 59.5602 117.784 58.144 117.784 56.6673V45.5313C117.784 44.0546 117.198 42.6384 116.153 41.5942C115.109 40.55 113.693 39.9634 112.216 39.9634H89.9444ZM64.8885 53.8833C61.9351 53.8833 59.1026 55.0565 57.0143 57.1449C54.9259 59.2333 53.7526 62.0658 53.7526 65.0192C53.7526 67.9726 54.9259 70.8051 57.0143 72.8935C59.1026 74.9819 61.9351 76.1551 64.8885 76.1551C67.842 76.1551 70.6744 74.9819 72.7628 72.8935C74.8512 70.8051 76.0245 67.9726 76.0245 65.0192C76.0245 62.0658 74.8512 59.2333 72.7628 57.1449C70.6744 55.0565 67.842 53.8833 64.8885 53.8833ZM78.8084 81.7231H50.9686C48.7536 81.7231 46.6292 82.603 45.0629 84.1693C43.4966 85.7356 42.6167 87.86 42.6167 90.075C42.6167 96.2889 45.1724 101.267 49.3651 104.635C53.4909 107.948 59.0255 109.563 64.8885 109.563C70.7516 109.563 76.2862 107.948 80.412 104.635C84.5991 101.267 87.1604 96.2889 87.1604 90.075C87.1604 87.86 86.2805 85.7356 84.7142 84.1693C83.1479 82.603 81.0235 81.7231 78.8084 81.7231Z"
+          fill="#5C0B9D"
+        />
+        <defs>
+          <filter
+            id="filter0_d_858_1466"
+            x="0"
+            y="0"
+            width="156"
+            height="156"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix
+              in="SourceAlpha"
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha"
+            />
+            <feOffset dy="4" />
+            <feGaussianBlur stdDeviation="2" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+            />
+            <feBlend
+              mode="normal"
+              in2="BackgroundImageFix"
+              result="effect1_dropShadow_858_1466"
+            />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="effect1_dropShadow_858_1466"
+              result="shape"
+            />
+          </filter>
+        </defs>
+      </svg>
+    </NuxtLink>
+  </footer>
+</template>
+
+<script>
+export default {
+  name: "Footer",
+};
+</script>
+
+<style scoped>
+.footer-typo {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.footer-content {
+  font-size: 14px;
+  line-height: 24px;
+}
+footer {
+  background: #282828;
+}
+</style>

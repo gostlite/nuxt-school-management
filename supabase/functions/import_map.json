@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "postgres": "https://deno.land/x/postgres@v0.17.0/mod.ts",
+    "puppeteer": "https://deno.land/x/puppeteer@16.2.0/mod.ts",
+    "https://esm.sh/jszip@3.5.0": "https://esm.sh/jszip@3.5.0?bundle"
+  }
+}

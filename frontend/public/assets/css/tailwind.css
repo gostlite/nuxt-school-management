@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .tiflicare-color {
+    @apply bg-[#5c0b9d];
+  }
+}

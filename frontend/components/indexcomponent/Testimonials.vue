@@ -1,0 +1,67 @@
+<template>
+  <div class="flex flex-col bg-[#D7C4E4A1] w-full py-10">
+    <p
+      class="text-center text-purple-950 text-opacity-70 text-xl font-bold leading-7"
+    >
+      What educators are saying
+    </p>
+    <h2
+      class="text-center text-purple-950 text-3xl md:text-6xl font-bold leading-10"
+    >
+      Read more testimonials
+    </h2>
+    <div class="carousel mx-5 mt-4 gap-5 relative my-10">
+      <div
+        v-for="num in number"
+        :key="num"
+        class="carousel-item relative mt-5 h-[300px] border-b border-r border-green"
+        style="box-shadow: 0px 4px 8px 0px rgba(0, 128, 0, 0.5)"
+      >
+        <div class="card w-96 bg-base-100 shadow-xl border border-black">
+          <!-- SVG placed on the top border line -->
+          <svg
+            class="absolute inset-x-0 top-[-48px] left-1/2 transform -translate-x-1/2"
+            width="96"
+            height="96"
+            viewBox="0 0 96 96"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M47.53 95.56C73.7801 95.56 95.06 74.2801 95.06 48.03C95.06 21.7799 73.7801 0.5 47.53 0.5C21.2799 0.5 0 21.7799 0 48.03C0 74.2801 21.2799 95.56 47.53 95.56Z"
+              fill="#03E987"
+            />
+            <path
+              d="M21.4598 32.6899L23.3198 36.0199C22.2285 37.5394 21.2621 39.1446 20.4298 40.8199C19.5644 42.5311 19.0477 44.3973 18.9098 46.3099L24.2998 47.3099V58.5599H9.2998V50.4999C9.2998 45.8733 10.3931 42.1333 12.5798 39.2799C14.913 36.3449 17.9747 34.0728 21.4598 32.6899ZM40.8598 32.6899L42.7798 36.0199C41.685 37.537 40.7183 39.1425 39.8898 40.8199C39.0198 42.5294 38.5029 44.3965 38.3698 46.3099L43.7598 47.3099V58.5599H28.7598V50.4999C28.7598 45.8733 29.8565 42.1333 32.0498 39.2799C34.3603 36.3513 37.3979 34.0792 40.8598 32.6899Z"
+              fill="white"
+            />
+            <path
+              d="M54.0901 63.36L52.3301 60.03C53.3831 58.4684 54.3479 56.8493 55.2201 55.18C56.1466 53.5087 56.6801 51.6483 56.7801 49.74L51.3901 48.66V37.5H66.3901V45.5C66.3901 50.0733 65.2968 53.78 63.1101 56.62C60.7391 59.6111 57.6306 61.9338 54.0901 63.36ZM73.5001 63.36L71.7801 60.03C72.8367 58.4707 73.8017 56.8513 74.6701 55.18C75.5872 53.5072 76.1073 51.6459 76.1901 49.74L70.7801 48.66V37.5H85.7801V45.5C85.7801 50.0733 84.6835 53.78 82.4901 56.62C80.1274 59.6069 77.0297 61.9293 73.5001 63.36Z"
+              fill="white"
+            />
+          </svg>
+
+          <div class="card-body">
+            <p
+              class="mt-10 text-purple-950 text-xl font-normal leading-7 text-left"
+            >
+              They have genuinely made us feel like a family, and they have
+              greatly aided our business' development. They have provided us
+              with the elements we required in order to succeed.
+            </p>
+            <div class="card-actions justify-end">
+              <p class="text-center text-purple-950 text-sm font-extrabold">
+                LOREM IPSUM
+              </p>
+              <!-- <button class="btn btn-primary">Buy Now</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+const number = [1, 2, 3, 4, 5, 6];
+</script>
